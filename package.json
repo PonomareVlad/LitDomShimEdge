@@ -1,0 +1,23 @@
+{
+  "name": "@svalit/dom-shim",
+  "version": "1.0.0",
+  "description": "Lit DOM Shim for Edge",
+  "main": "lib/install-global-dom-shim.js",
+  "license": "MIT",
+  "keywords": [
+    "lit",
+    "dom",
+    "shim",
+    "edge",
+    "worker"
+  ],
+  "author": "Vladislav Ponomarev <Git@PonomareVlad.ru> (https://PonomareVlad.ru)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonomareVlad/LitDomShimEdge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PonomareVlad/LitDomShimEdge/issues"
+  },
+  "homepage": "https://github.com/PonomareVlad/LitDomShimEdge#readme"
+}
