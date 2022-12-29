@@ -1,9 +1,12 @@
 {
-  "name": "@svalit/dom-shim",
+  "name": "@svalit/dom-shim-edge",
   "version": "1.0.0",
   "description": "Lit DOM Shim for Edge",
   "main": "lib/install-global-dom-shim.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "lit",
     "dom",
