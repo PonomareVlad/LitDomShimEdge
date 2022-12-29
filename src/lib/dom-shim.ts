@@ -202,5 +202,6 @@ export const installWindowOnGlobal = (props: {[key: string]: unknown} = {}) => {
         const window = getWindow({props});
         // Copy initial window globals to node global
         Object.assign(globalThis, window);
+        globalThis.window = globalThis;
     }
 };
