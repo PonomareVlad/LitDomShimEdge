@@ -136,9 +136,9 @@ export const getWindow = ({
         ShadowRoot,
         CustomElementRegistry,
         customElements: new CustomElementRegistry(),
-        btoa(s: string) {
-            return Buffer.from(s, 'binary').toString('base64');
-        },
+        // btoa(s: string) {
+        //     return Buffer.from(s, 'binary').toString('base64');
+        // },
         // fetch: (url: URL, init: {}) =>
         // TODO(aomarks) The typings from node-fetch are wrong because they don't
         // allow URL.
