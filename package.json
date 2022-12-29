@@ -1,11 +1,12 @@
 {
   "name": "@svalit/dom-shim-edge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lit DOM Shim for Edge",
-  "main": "lib/install-global-dom-shim.js",
+  "main": "lib/dom-shim.ts",
+  "type": "module",
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "@lit-labs/ssr": "^2.3.0"
   },
   "keywords": [
     "lit",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/PonomareVlad/LitDomShimEdge/issues"
   },
-  "homepage": "https://github.com/PonomareVlad/LitDomShimEdge#readme"
+  "homepage": "https://github.com/PonomareVlad/LitDomShimEdge#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
