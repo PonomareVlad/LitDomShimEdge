@@ -6,7 +6,8 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@lit-labs/ssr": "^2.3.0"
+    "@lit-labs/ssr": "^3.0.0",
+    "@lit-labs/ssr-dom-shim": "^1.0.0"
   },
   "keywords": [
     "lit",
